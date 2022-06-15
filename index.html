@@ -8,6 +8,11 @@
     <meta charset="utf-8" Set-Cookie: widget_session=abc123; SameSite=None; Secure />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
+    <!--- Launch Timer 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Share+Tech+Mono'>
+    <link rel="stylesheet" href="assets/css/style.css"> --->
+
     <!-- Favicons -->
     <link href="assets/img/cropslogo.png" rel="icon" type="image/png">
     <link href="assets/img/cropslogo.png" rel="apple-touch-icon">
@@ -34,7 +39,6 @@
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
 
     <!-- scripts -->
     <script src="assets/js/jquery.min.js"></script>
@@ -67,6 +71,48 @@
   </head>
 
   <body>
+
+  <!-- Launch section for launch 
+<div id="clock" style="z-index: 999;padding-top: 70px;">
+      <p class="date">{{ date }}</p>
+      <p class="time">{{ time }}</p>
+      <p class="text">DIGITAL CLOCK with Vue.js</p>
+    </div>
+    <header id="header" class="fixed-top ">
+      <div class="container d-flex align-items-center justify-content-lg-between">
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li>
+              <a class="nav-link" href="https://home.cropsfarmer.online/" target="_blank"><img class="nav-logo" id="" alt="" src="assets/img/cropslogo.png">Farms</a>
+            </li>
+            <li>
+              <a class="nav-link" href="" target="_blank"><img class="nav-logo" id="" alt="" src="assets/img/ccs-audit.png">Audited by CyberCrimeShield™</a>
+            </li>
+            <li>
+              <a class="nav-link" href="https://bscscan.com/address/0xf52c3902678aa4af29f58a9582daab792cf5ea5b" target="_blank"><img class="nav-logo" id="logo" alt="" src="assets/img/bscscan-logo-light-circle.svg">Contract</a>
+            </li>
+            <li>
+              <a class="nav-link" href="https://twitter.com/BUSDCropFarmer" target="_blank"><img class="nav-logo" id="twitter" alt="" src="assets/img/twitter.svg">Twitter</a>
+            </li>
+            <li>
+              <a class="nav-link" href="https://t.me/busdcropfarmer" target="_blank"><img class="contract-logo" id="telegram" alt="" src="assets/img/telegram.svg">Telegram</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+    <section id="hero" class="d-flex align-items-center justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center" style="
+    margin-top: 100px;">
+          <div class="col-xl-6 col-lg-8" style="background: #000000c4;border: 1px solid white!important;border-radius: 14px;/* margin-bottom: 50px; */box-shadow: 0 0 3px #eeb200, 0 0 3px #f3b702, 0 0 3px #f5b801, 0 0 200px #f5b800;">
+            <h1 style="padding-top: 390px;padding-bottom: 20px;color: white;"> The <strong class="avax"> BNB </strong>
+              Crops Yield Farmer </h1>
+            <h2 style="color: white;">Choose your ROI <strong class="avax"> 2%/2.5%/3%/3.5% STATIC</strong> APR Daily.
+            </h2>
+          </div>
+        </div> <!-- End Launch section -->  
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top ">
@@ -101,21 +147,15 @@
     </header> <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center justify-content-center">
+   <section id="hero" class="d-flex align-items-center justify-content-center">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-6 col-lg-8">
             <h1> The <strong class="avax"> BNB </strong> Crops Yield Farmer </h1>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-xl-6 col-lg-8">
             <h2>Choose your ROI <strong class="avax"> 2%/2.5%/3%/3.5% STATIC</strong> APR Daily.
             </h2>
           </div>
-        </div>
-
+        </div> 
         <div class="row gy-4 justify-content-center">
           <div class="col-xl-2 col-md-4 hero-row">
             <div class="icon-box">
@@ -186,7 +226,7 @@
                 </div>
                 <h5>min deposit: 30 <strong class="avax">BNB</strong></h5>
                 <h5>max deposit: 6,000 <strong class="avax">BNB</strong></h5>
-                <!--      <h5>active deposits: <span id="active-invest1">0</span> <strong class="avax">BNB</strong></h5>
+                <!-- <h5>active deposits: <span id="active-invest1">0</span> <strong class="avax">BNB</strong></h5>
               <h5>available: <span id="available1">0</span> <strong class="avax">BNB</strong></h5> -->
                 <div class="webdesigntuts-workshop">
                   <form action="" method="">
@@ -221,7 +261,7 @@
                 </div>
                 <h5>min deposit: 40 <strong class="avax">BNB</strong></h5>
                 <h5>max deposit: 8,000 <strong class="avax">BNB</strong></h5>
-                <!--  <h5>active deposits: <span id="active-invest2">0</span> <strong class="avax">BNB</strong></h5>
+                <!-- <h5>active deposits: <span id="active-invest2">0</span> <strong class="avax">BNB</strong></h5>
               <h5>available: <span id="available2">0</span> <strong class="avax">BNB</strong></h5> -->
                 <div class="webdesigntuts-workshop">
                   <form action="" method="">
@@ -256,7 +296,7 @@
                 </div>
                 <h5>min deposit: 50 <strong class="avax">BNB</strong></h5>
                 <h5>max deposit: 10,000 <strong class="avax">BNB</strong></h5>
-                <!--  <h5>active deposits: <span id="active-invest3">0</span> <strong class="avax">BNB</strong></h5>
+                <!-- <h5>active deposits: <span id="active-invest3">0</span> <strong class="avax">BNB</strong></h5>
               <h5>available: <span id="available3">0</span> <strong class="avax">BNB</strong></h5> -->
                 <div class="webdesigntuts-workshop">
                   <form action="" method="">
@@ -291,7 +331,7 @@
                 </div>
                 <h5>min deposit: 35 <strong class="avax">BNB</strong></h5>
                 <h5>max deposit: 12,000 <strong class="avax">BNB</strong></h5>
-                <!--   <h5>active deposits: <span id="active-invest4">0</span> <strong class="avax">BNB</strong></h5>
+                <!-- <h5>active deposits: <span id="active-invest4">0</span> <strong class="avax">BNB</strong></h5>
               <h5>available: <span id="available4">0</span> <strong class="avax">BNB</strong></h5> -->
                 <div class="webdesigntuts-workshop">
                   <form action="" method="">
@@ -337,14 +377,7 @@
                     <strong class="avax">BNB</strong>
                   </div>
                 </div>
-                <!--     <div class="col-xl-2 col-md-4 hero-row">
-                <div class="stats-icon-box">
-                  <i class="ri-coins-line ri-1x"></i>
-                  Rewards
-                  <div id="user-dividends-and-referrals">0</div>
-                  <strong class="avax">BNB</strong>
-                </div>
-              </div> -->
+
                 <div class="col-xl-2 col-md-4 hero-row">
                   <div class="stats-icon-box">
                     <i class="ri-wallet-2-line ri-1x"></i>
@@ -355,9 +388,6 @@
                 </div>
                 <div class="col-xl-2 col-md-4 hero-row">
                   <div class="stats-icon-box">
-                    <!-- <i class="ri-user-2-line ri-1x"></i>
-                    <span>Referrals (<span id="user-total-referrals">0</span>)</span>
-                  <div id="user-referral-total-bonus">0</div> -->
                     <i class="ri-wallet-2-line ri-1x"></i>
                     <span> Available </span>
                     <div id="user-available">0</div>
@@ -381,7 +411,6 @@
                   onclick="copyRef()"><i class="ri-file-copy-line"></i><span id="copied"></span>
                 </span>
               </div>
-
               <div id="user-deposits" style="display:block;">
 
                 <tbody>
@@ -505,6 +534,12 @@
       <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
           class="bi bi-arrow-up-short"></i></a>
     </footer> <!-- End Footer -->
+
+
+    <!-- launch timer
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
+    <script src="./script.js"></script>  -->
+
 
   </body>
 
