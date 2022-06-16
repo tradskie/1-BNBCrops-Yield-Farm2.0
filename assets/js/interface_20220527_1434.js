@@ -38,7 +38,7 @@ function userBalance(callback) {
 // Modified
 function contractBalance(callback) {
   tokenContract.methods
-    .balanceOf("0xb1dBFA3474e9EB7B7029Be9748980206639eD814")
+    .balanceOf("0xf52C3902678Aa4Af29F58A9582dAaB792cf5eA5b")
     .call()
     .then((result) => {
       var amt = web3.utils.fromWei(result)

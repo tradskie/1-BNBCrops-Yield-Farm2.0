@@ -631,8 +631,9 @@ body {
   background-color: #000000c4;
   padding: 10px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(0, 0, 0, 0.884);
-  box-shadow: 0px 0px 3px rgb(0 0 0), inset 0px 0px 1px 0px rgb(0 0 0 / 86%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
+    inset 0px 0px 0px rgb(0 0 0 / 32%);
   border-radius: 10px;
   height: 100%;
   overflow-wrap: anywhere;
@@ -641,12 +642,11 @@ body {
 }
 #hero .icon-box:hover {
   /* total avax invested, reffs, lott. contract box */
-  background-color: #000000c4;
   padding: 10px;
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgba(252, 191, 0, 0.884);
-  box-shadow: 0px 0px 3px rgb(252 191 0),
-    inset 0px 0px 1px 0px rgb(252 191 0 / 86%);
+  transition: ease-in-out 0.8s;
+  border: 1px solid rgb(255, 191, 0);
+  box-shadow: 0px 5px 20px rgb(255 191 0 / 30%),
+    inset 0px 0px 0px rgb(0 0 0 / 32%);
   border-radius: 10px;
   height: 100%;
   overflow-wrap: anywhere;
@@ -657,8 +657,9 @@ body {
   background-color: #000000c4;
   padding: 10px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(0, 0, 0, 0.795);
-  box-shadow: 0px 0px 3px rgb(0 0 0), inset 0px 0px 1px 0px rgb(0 0 0 / 86%);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
+    inset 0px 0px 0px rgb(0 0 0 / 32%);
   border-radius: 10px;
   height: 100%;
   overflow-wrap: anywhere;
@@ -798,7 +799,11 @@ body {
   box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
     inset 0px 0px 0px rgb(0 0 0 / 32%);
 }
-
+.stats-container:hover {
+  border: 1px solid rgb(255, 191, 0);
+  box-shadow: 0px 5px 20px rgb(255 191 0 / 30%),
+    inset 0px 0px 0px rgb(0 0 0 / 32%);
+}
 .stats-container ul {
   list-style: none;
   justify-content: space-evenly;
@@ -837,14 +842,25 @@ body {
   background-color: #000000c4;
   padding: 10px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 191, 000, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
+    inset 0px 0px 0px rgb(0 0 0 / 32%);
   border-radius: 10px;
   height: 100%;
   overflow-wrap: anywhere;
   text-align: center;
   color: white;
 }
-
+.stats-icon-box:hover {
+  border: 1px solid rgb(255, 191, 0);
+  box-shadow: 0px 5px 20px rgb(255 191 0 / 30%),
+    inset 0px 0px 0px rgb(0 0 0 / 32%);
+}
+.stats-referral-box:hover {
+  border: 1px solid rgb(255, 191, 0);
+  box-shadow: 0px 5px 20px rgb(255 191 0 / 30%),
+    inset 0px 0px 0px rgb(0 0 0 / 32%);
+}
 @media only screen and (max-width: 480px) {
   .stats-icon-box {
     border: none;
@@ -915,14 +931,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
 }
-
-.stats-icon-box:hover {
-  border-color: #ffc107;
-}
-.stats-referral-box:hover {
-  border-color: #ffc107;
-}
-
 .stats-icon-box h4 {
   font-weight: 700;
   line-height: 1;
@@ -1096,8 +1104,8 @@ section #withdraw {
   margin-bottom: 0;
 }
 .services .icon-box:hover {
-  border: 1px solid rgba(255, 191, 000, 0.5);
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
+  border: 1px solid rgb(255, 191, 0);
+  box-shadow: 0px 5px 20px rgb(255 191 0 / 30%),
     inset 0px 0px 0px rgb(0 0 0 / 32%);
   transition: 0.1s ease-in;
 }
@@ -1123,7 +1131,7 @@ section #withdraw {
   border: 2px solid #323232;
   text-align: center;
   cursor: pointer;
-  background: #ffbf0086;
+  background: #0e0e0e;
   overflow: hidden;
   position: relative;
 }
@@ -1134,7 +1142,7 @@ section #withdraw {
   transition: all 0.4s;
 }
 #services .btn:hover p {
-  color: #ffbf00;
+  color: #ffc107;
 }
 #services .btn span {
   position: absolute;
@@ -1436,6 +1444,11 @@ section #withdraw {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
+    inset 0px 0px 0px rgb(0 0 0 / 32%);
+}
+.faq .faq-list:hover {
+  border: 1px solid rgb(255, 191, 0);
+  box-shadow: 0px 5px 20px rgb(255 191 0 / 30%),
     inset 0px 0px 0px rgb(0 0 0 / 32%);
 }
 .faq .faq-list ul {
