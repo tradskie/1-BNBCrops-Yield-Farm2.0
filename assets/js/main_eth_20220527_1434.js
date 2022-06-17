@@ -542,8 +542,8 @@ function investInPlan1() {
   if (!web3.utils.isAddress(ref)) {
     ref = currentAddr
   }
-  var bnb = trxspenddoc.value;
-  var amt = web3.utils.toWei(bnb);
+  var bnb = trxspenddoc.value
+  var amt = web3.utils.toWei(bnb)
   console.log(amt)
   invest(ref, plan, amt, function () {
     displayTransactionMessage()
@@ -558,8 +558,8 @@ function investInPlan2() {
   if (!web3.utils.isAddress(ref)) {
     ref = currentAddr
   }
-  var bnb = trxspenddoc.value;
-  var amt = web3.utils.toWei(bnb);
+  var bnb = trxspenddoc.value
+  var amt = web3.utils.toWei(bnb)
   console.log(amt)
   invest(ref, plan, amt, function () {
     displayTransactionMessage()
@@ -574,8 +574,8 @@ function investInPlan3() {
   if (!web3.utils.isAddress(ref)) {
     ref = currentAddr
   }
-  var bnb = trxspenddoc.value;
-  var amt = web3.utils.toWei(bnb);
+  var bnb = trxspenddoc.value
+  var amt = web3.utils.toWei(bnb)
   console.log(amt)
   invest(ref, plan, amt, function () {
     displayTransactionMessage()
@@ -590,8 +590,8 @@ function investInPlan4() {
   if (!web3.utils.isAddress(ref)) {
     ref = currentAddr
   }
-  var bnb = trxspenddoc.value;
-  var amt = web3.utils.toWei(bnb);
+  var bnb = trxspenddoc.value
+  var amt = web3.utils.toWei(bnb)
   console.log(amt)
   invest(ref, plan, amt, function () {
     displayTransactionMessage()
