@@ -109,6 +109,9 @@ async function loadWeb3() {
 $("#enableMetamask").click(function () {
   connect()
 })
+function approve() {
+  approveBUSD(web3.utils.toWei("5000"))
+}
 
 function controlLoop() {
   refreshAllData()
@@ -542,10 +545,8 @@ function investInPlan1() {
   if (!web3.utils.isAddress(ref)) {
     ref = currentAddr
   }
-  var bnb = trxspenddoc.value;
-  var amt = web3.utils.toWei(bnb);
-  console.log(amt)
-  invest(ref, plan, amt, function () {
+  console.log(trxspenddoc.value)
+  invest(ref, plan, trxspenddoc.value, function () {
     displayTransactionMessage()
   })
 }
@@ -558,10 +559,7 @@ function investInPlan2() {
   if (!web3.utils.isAddress(ref)) {
     ref = currentAddr
   }
-  var bnb = trxspenddoc.value;
-  var amt = web3.utils.toWei(bnb);
-  console.log(amt)
-  invest(ref, plan, amt, function () {
+  invest(ref, plan, trxspenddoc.value, function () {
     displayTransactionMessage()
   })
 }
@@ -574,10 +572,7 @@ function investInPlan3() {
   if (!web3.utils.isAddress(ref)) {
     ref = currentAddr
   }
-  var bnb = trxspenddoc.value;
-  var amt = web3.utils.toWei(bnb);
-  console.log(amt)
-  invest(ref, plan, amt, function () {
+  invest(ref, plan, trxspenddoc.value, function () {
     displayTransactionMessage()
   })
 }
@@ -590,10 +585,7 @@ function investInPlan4() {
   if (!web3.utils.isAddress(ref)) {
     ref = currentAddr
   }
-  var bnb = trxspenddoc.value;
-  var amt = web3.utils.toWei(bnb);
-  console.log(amt)
-  invest(ref, plan, amt, function () {
+  invest(ref, plan, trxspenddoc.value, function () {
     displayTransactionMessage()
   })
 }
