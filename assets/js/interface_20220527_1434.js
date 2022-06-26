@@ -1,4 +1,4 @@
-var minersAddr = "0xb1dBFA3474e9EB7B7029Be9748980206639eD814" //bnb testnet
+var minersAddr = "0xb1dBFA3474e9EB7B7029Be9748980206639eD814"
 var minersAbi = [
   {
     inputs: [
@@ -747,7 +747,7 @@ function userTotalDeposits(callback) {
     .then((result) => {
       var amt = web3.utils.fromWei(result)
       // console.log("balance" + amt)
-      callback(amt)
+      callback(amt);
     })
     .catch((err) => {
       console.log(err)
